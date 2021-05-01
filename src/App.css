@@ -1,0 +1,28 @@
+:root {
+  --modalHeaderPrimary: rgb(124, 52, 124);
+  --modalHeaderSecondary: rgb(190, 185, 185);
+}
+/* body {
+  background-color: rgb(104, 4, 104);
+} */
+body {
+  background: url(./images/background01-1024x576.png);
+  height: 100%;
+  width: 100%;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+/* html { 
+    background: url(../images/background01-1024x576.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */
+
+#parentContainer {
+    border-radius:20px;  
+}

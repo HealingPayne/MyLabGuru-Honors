@@ -1,0 +1,184 @@
+#logo {
+  width: 60%;
+  max-width: 305px;
+  min-width: 225px;
+  margin: 0 3%;
+}
+
+#menuPlaceholder {
+  height: 50px;
+}
+#mainContent {
+  border-radius: 20px;
+  margin: 0 20%;
+}
+.navbar {
+  /* background-image: linear-gradient(to right,rgba(138, 79, 138, 0.87),rgb(196, 142, 196)); */
+  background-image: linear-gradient(
+    to right,
+    rgba(8, 71, 245, 0.726),
+    rgba(185, 110, 185, 0.972)
+  );
+  color: white;
+  border-radius: 10px;
+  margin: 0 3%;
+  box-shadow: 2px 2px 2px darkslategray;
+}
+.navbar .dropdown-menu {
+  color: white !important;
+  background-color: rgba(177, 123, 177, 0.75);
+}
+.dropdown-item {
+  color: white;
+}
+.dropdown-menu a:hover {
+  color: white !important;
+  background-color: rgba(208, 202, 233, 0.972);
+}
+.carousel-inner {
+  box-shadow: 10px 10px 30px gray;
+  border-radius: 10px;
+}
+
+.carousel-text {
+  font-size: 110%;
+  padding: 3px;
+  color: white;
+  background-color: rgba(89, 103, 139, 0.5);
+  border-radius: 10px;
+  text-shadow: 1px 1px 1px black;
+}
+.productText {
+  color: gray;
+  font-size: 90%;
+  text-align: justify;
+}
+.btn {
+  box-shadow: 3px 3px 3px gray;
+  background-color: rgb(69, 114, 196);
+  color: white;
+  padding: 5px;
+}
+.btn:hover {
+  background-color: rgb(139, 72, 148);
+  /* background-color: rgb(79, 110, 110); */
+  color: white;
+}
+.modalAnchor {
+  background-color: rgb(84, 182, 109);
+  width: 150px;
+}
+.modalAnchor:hover {
+  background-color: rgb(76, 131, 44);
+}
+
+.modalButton {
+  background-color: rgb(167, 92, 167);
+  width: 150px;
+}
+
+.modalButton:hover {
+  background-color: rgb(144, 63, 151);
+}
+
+.orderButton {
+  width: 205;
+}
+[class*="col-"] {
+  padding: 0 10px;
+  margin-bottom: 5px;
+}
+/* .manualImage {
+  width: 100%;
+  max-width: 160px;
+  box-shadow: 5px 5px 5px gray;
+  z-index: 0;
+} */
+.labs-logo {
+  width: 120px;
+}
+#labelDownload {
+  color: red;
+  font-size: 80%;
+  margin-left: -20px;
+}
+#manualInfo section {
+  border: 1px solid rgba(184, 148, 184, 0.5);
+  border-radius: 5px;
+}
+
+.comingSoon {
+  color: rosybrown;
+  font-style: italic;
+}
+.modal-header {
+  color: white;
+  background-image: linear-gradient(rgb(124, 52, 124), rgb(190, 185, 185));
+}
+.card {
+  box-shadow: 5px 5px 5px gray;
+}
+.card a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.card-header {
+  background-color: rgb(224, 223, 245);
+}
+.card-body {
+  background-color: rgb(249, 248, 250);
+}
+.productListLabel {
+  /* margin-left: 20px; */
+  color: gray;
+  font-weight: bold;
+}
+.productList {
+  margin-left: 0;
+}
+address {
+  color: gray;
+  margin: 0;
+}
+.ebookText {
+  text-align: justify;
+}
+#vitalsource {
+  width: 75%;
+}
+@media screen and (max-width: 1020px) {
+  #mainContent {
+    border-radius: 20px;
+    margin: 0 10%;
+  }
+
+}
+@media screen and (max-width: 650px) {
+  /* body {
+    padding:0;
+    margin:0 5%;
+  } */
+
+  #mainContent {
+    border-radius: 2;
+    margin: 0 2%;
+  }
+
+  .carousel-text {
+    font-size: 70%;
+  }
+
+  .productText,
+  .ebookText {
+    text-align: left;
+  }
+  #productListLabel {
+    margin-left: 5%;
+  }
+  .productList {
+    margin-left: 0;
+  }
+  #vitalsource {
+    width: 100%;
+  }
+}
